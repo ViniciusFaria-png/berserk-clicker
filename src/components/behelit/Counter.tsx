@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BehelitButton from "./BehelitButton";
+//Implementar deteccao por pixel Canvas
 
 interface CounterProps {
   initialValue?: number; //initial value
