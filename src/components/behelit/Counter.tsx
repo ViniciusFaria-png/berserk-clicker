@@ -1,4 +1,5 @@
 import { useState } from "react";
+import BehelitButton from "./BehelitButton";
 
 interface CounterProps {
   initialValue?: number; //initial value
@@ -10,7 +11,7 @@ export default function Counter({ initialValue = 0, step = 1 }: CounterProps) {
   return (
     <div>
       <p>Behelits: {count}</p>
-      <button onClick={() => setCount(count + step)}>Behelit</button>
+      <BehelitButton onClick={() => setCount(count + step)}></BehelitButton>
     </div>
   );
 }
